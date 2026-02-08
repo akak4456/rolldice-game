@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 50px;
+}
+
+.player--active {
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+.current {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn--newgame {
+  top: 35%;
+}
+
+.btn--rolldice {
+  top: 53%;
+}
+
+.btn--hold {
+  top: 60%;
+}
