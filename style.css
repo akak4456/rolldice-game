@@ -26,11 +26,23 @@ main {
   background-color: rgba(255, 0, 0, 0.4);
 }
 
+.score {
+  font-size: 30px;
+}
+
 .current {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.current-label {
+  font-size: 20px;
+}
+
+.current-score {
+  font-size: 20px;
 }
 
 .btn {
@@ -41,6 +53,7 @@ main {
   background-color: white;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .btn--newgame {
