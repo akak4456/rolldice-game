@@ -8,25 +8,27 @@
   </head>
   <body>
     <main>
-      <section class="player">
+      <section class="player player--active" id="player1">
         <h2 class="name">Player 1</h2>
-        <p class="score">0</p>
+        <p class="score" id="score--player1">0</p>
         <div class="current">
           <p class="current-label">Current</p>
-          <p class="current-score">0</p>
+          <p class="current-score" id="current-score--player1">0</p>
         </div>
       </section>
-      <section class="player">
+      <section class="player" id="player2">
         <h2 class="name">Player 2</h2>
-        <p class="score">0</p>
+        <p class="score" id="score--player2">0</p>
         <div class="current">
           <p class="current-label">Current</p>
-          <p class="current-score">0</p>
+          <p class="current-score" id="current-score--player2">0</p>
         </div>
       </section>
       <button class="btn btn--newgame">NEW GAME</button>
+      <img src="assets/dice-1.png" alt="dice" class="dice hidden" />
       <button class="btn btn--rolldice">ROLL DICE</button>
       <button class="btn btn--hold">HOLD</button>
+      <p class="game-finish hidden">GAME FINISH</p>
     </main>
     <script src="script.js"></script>
   </body>

@@ -60,10 +60,33 @@ main {
   top: 35%;
 }
 
+.dice {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 42.5%;
+  width: 70px;
+  height: 70px;
+}
+
+.hidden {
+  display: none;
+}
+
 .btn--rolldice {
   top: 53%;
 }
 
 .btn--hold {
   top: 60%;
+}
+
+.game-finish {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+  padding: 30px;
+  font-size: 30px;
 }
