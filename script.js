@@ -7,10 +7,14 @@ let player2SumScore = 0;
 const updateGameState = () => {
   const player1 = document.querySelector("#player1");
   const player2 = document.querySelector("#player2");
-  const player1CurrentScoreP = document.querySelector("#score--player1");
-  const player2CurrentScoreP = document.querySelector("#score--player2");
-  const player1SumScoreP = document.querySelector("#current-score--player1");
-  const player2SumScoreP = document.querySelector("#current-score--player2");
+  const player1CurrentScoreP = document.querySelector(
+    "#current-score--player1",
+  );
+  const player2CurrentScoreP = document.querySelector(
+    "#current-score--player2",
+  );
+  const player1SumScoreP = document.querySelector("#score--player1");
+  const player2SumScoreP = document.querySelector("#score--player2");
   player1CurrentScoreP.innerText = player1CurrentScore;
   player2CurrentScoreP.innerText = player2CurrentScore;
   player1SumScoreP.innerText = player1SumScore;
